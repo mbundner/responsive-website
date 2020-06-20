@@ -61,6 +61,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     padding-bottom: 50px;
+    margin-top: -10px;
 }
 
 .insta {
@@ -79,21 +80,17 @@ header {
 
 .button {
     background-color: white;
-    padding: 5px 20px 5px 20px;
+    padding: 10px 30px 10px 30px;
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    font-size: x-small;
+    font-size: xx-small;
 }
 .latin {
-    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
     color: grey;
 }
-
-
-
-
-
 
 .images {
     
@@ -114,7 +111,7 @@ header {
     grid-template-columns: 200px 200px 200px 200px;
 }
 #left {
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 4;
     grid-column: 1 / span 2;
 }
 #right1 {
