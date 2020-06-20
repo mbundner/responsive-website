@@ -2,7 +2,10 @@ body {
     max-width: 1000px;
 }
 
-header {}
+header {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
 
 .text2 {
 
@@ -12,16 +15,29 @@ header {}
 }
 
 #one {
-    padding-left: 100px;
+    padding-left: 105px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: x-large;
 }
 #two {
     padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: x-small;
 }
-#three{}
-#four{}
-#five{}
+#three{
+    font-size: x-small;
+}
+#four{
+    font-size: x-small;
+}
+#five{
+    font-size: x-small;
+}
 #six{
-    padding-left: 100px;
+    font-size: x-small;
+    padding-left: 250px;
 }
 
 .top {
@@ -34,21 +50,47 @@ header {}
 
 
 
-.custom {
+.custom1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 50px;
 }
+.custom2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-bottom: 50px;
+}
+
+.insta {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .title {
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
 }
 
 
-
+.button {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
 
 
 .images {
+    padding-top: 60px;
+    border-top:  thin solid black;
+    border-bottom: thin solid black;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,6 +122,9 @@ header {}
     grid-column: 4;
 }
 footer {
+    border-top: thin solid black;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
