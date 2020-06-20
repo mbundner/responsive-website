@@ -1,0 +1,21 @@
+header {
+
+}
+.text2 {
+
+    display: inline;
+    text-align: left;
+}
+
+#one {
+    padding-left: 100px;
+}
+#two {
+    padding-left: 50px;
+}
+#three{}
+#four{}
+#five{}
+#six{
+    padding-left: 300px;
+}
