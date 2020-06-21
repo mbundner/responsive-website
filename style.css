@@ -22,22 +22,31 @@ header {
     font-size: x-large;
 }
 #two {
-    padding-left: 50px;
-    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
     font-size: x-small;
+    color: lightgray;
 }
 #three{
     font-size: x-small;
+    padding-left: 10px;
+    color: lightgray;
 }
 #four{
     font-size: x-small;
+    padding-left: 10px;
+    color: lightgray;
+
 }
 #five{
     font-size: x-small;
+    padding-left: 10px;
+    color: lightgray;
 }
 #six{
     font-size: x-small;
     padding-left: 250px;
+    color: lightgray;
 }
 
 .top {
